@@ -1,6 +1,7 @@
 node_modules/
 .idea/
-gemini/reports
-gemini/screens
+cypress/screenshots
+cypress/videos
+cypress.env.json
 
 **.png

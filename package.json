@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-unit": "mocha test",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run" : "cypress run --spec 'cypress/integration/*_spec.js'"
   },
   "repository": {
     "type": "git",
