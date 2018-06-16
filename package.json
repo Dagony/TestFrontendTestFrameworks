@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Dagony/TestFrontendTestFrameworks.git"
   },
-  "author": "",
+  "author": "Mark de Wit",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dagony/TestFrontendTestFrameworks/issues"
@@ -21,10 +21,10 @@
     "chromedriver": "^2.40.0",
     "gemini": "^5.7.2",
     "gemini-gui": "^6.0.1",
+    "html-reporter": "^2.18.1",
     "selenium-standalone": "^6.15.0"
   },
   "dependencies": {
-    "html-reporter": "^2.18.1",
     "mocha": "^5.2.0",
     "phantomjs": "^2.1.7"
   }
