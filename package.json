@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-unit": "mocha test"
+    "test-unit": "mocha test",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,7 @@
   },
   "homepage": "https://github.com/Dagony/TestFrontendTestFrameworks#readme",
   "devDependencies": {
-
+    "cypress": "^3.0.1"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
