@@ -1,0 +1,31 @@
+{
+  "name": "testfrontendtestframeworks",
+  "version": "1.0.0",
+  "description": "Testing frontend testing frameworks by performing identical tests in multiple frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-unit": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagony/TestFrontendTestFrameworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dagony/TestFrontendTestFrameworks/issues"
+  },
+  "homepage": "https://github.com/Dagony/TestFrontendTestFrameworks#readme",
+  "devDependencies": {
+    "chromedriver": "^2.40.0",
+    "gemini": "^5.7.2",
+    "gemini-gui": "^6.0.1",
+    "selenium-standalone": "^6.15.0"
+  },
+  "dependencies": {
+    "html-reporter": "^2.18.1",
+    "mocha": "^5.2.0",
+    "phantomjs": "^2.1.7"
+  }
+}
